@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <link rel="stylesheet" href="solicitud.css"/>
+</head>
+<body>
+      <header>
+        <a href="home.html">
+            <img src="images/logo.png" alt="construyendoemprendedores.com">
+        </a>
+        <nav>
+          <ul class="nav">
+            <li><a>OPCIONES</a>
+                <ul class="nav">
+                  <li><a href="home.html">Home</a></li>
+                  <li><a href="menu.html">Menú</a></li>
+                </ul>
+              </li>
+          </ul>
+        </nav>
+    </header>
+    <div class="barras"></div>
+    <div class="contenedor">
+      <form method="POST" action="home.html">
+        <p>MI PEDIDO</p>
+
+        <label for="lname" style="margin-left:3.5%">Nombre</label>
+        <input required style="text-transform: capitalize" type="text" maxlength="30" id="apellidos" name="apellidos">
+
+        <label for="lname" style="margin-left:1%">Apellidos</label>
+        <input required style="text-transform: capitalize" type="text" maxlength="30" id="apellidos" name="apellidos">
+        
+        <br>
+        <h1>DOMICILIO</h1>
+
+        <label for="lname" style="margin-left:3.5%">Calle</label>
+        <input required style="text-transform: capitalize; margin-left:3%;" type="text" maxlength="50" id="calle" name="calle">
+
+        <label for="lname" style="margin-left:1%">Colonia</label>
+        <input required style="text-transform: capitalize; margin-left:1%;" type="text" maxlength="50" id="colonia" name="colonia">
+
+        <br>
+        <label for="lname" style="margin-left:3.5%">Número</label>
+        <input required type="number" maxlength="5" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" id="num" name="num">
+
+        <label for="lname" style="margin-left:1%">C.P</label>
+        <input required type="number" style="margin-left:5.5%;" maxlength="5" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" id="cp" name="cp">
+        
+        <label for="lname" style="margin-left: 20%;">Teléfono / Celular</label>
+        <input required type="text" style="margin-left: 2%;" title="Debe ser de 10 digitos" pattern="[0-9]{10}" id="telefono" name="telefono">
+        <br>
+        <label for="lname" style="margin-left: 20%;">Correo electrónico</label>
+        <input required type="email" id="correo" name="correo">
+        <br><br>
+
+        <label style="margin-left: 20%;">Fecha de Entrega</label>
+        <input required type="date" style="margin-left:2%;" id="anio" name="anio" value="2022-01-30" min="2022-01-30" max="2032-01-30">
+        
+        <h1>TAMAÑO</h1>
+        <select name="tamanio" style="margin-left: 33%;"> 
+          <option value="1">Chico</option> 
+          <option value="2">Mediano</option> 
+          <option value="3">Grande</option> 
+       </select>
+
+        <h1>SABOR</h1>
+        <select name="sabor" style="margin-left: 33%;"> 
+          <option value="1">Cacao</option> 
+          <option value="2">Mora Azul</option> 
+          <option value="3">Cajeta</option> 
+       </select>
+
+        <h1>TOPPINGS</h1>
+        <label><input type="checkbox" id="cbox1" value="merengue"> Merengue</label><br>
+        <label><input type="checkbox" id="cbox1" value="galleta"> Galleta</label><br>
+        <label><input type="checkbox" id="cbox1" value="fresa"> Fresa</label><br>
+        <label><input type="checkbox" id="cbox1" value="melon"> Melón</label><br>
+        <label><input type="checkbox" id="cbox1" value="zarzamora"> Frambuesa</label><br>
+        <label><input type="checkbox" id="cbox1" value="arandano"> Oreo</label><br>   
+        <label><input type="checkbox" id="cbox1" value="chocolate"> Chocolate</label><br>        
+        <label><input type="checkbox" id="cbox1" value="tartaleta"> Tartaleta</label><br>
+        <br><br><br><br>
+        <a class="boton" href="home.html">Cancelar</a>
+        <a class="boton" href="home.html">Aceptar</a>
+        <!--<button required type="submit" name="registrar">Aceptar</button>-->
+        <br><br><br>
+      </form>
+    </div>
+    <footer>
+      
+    </footer>
+</body>
+</html>

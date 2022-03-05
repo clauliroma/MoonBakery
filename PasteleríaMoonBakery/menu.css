@@ -1,0 +1,190 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    background-image: url("images/fondo.jfif");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url("images/fondo.jfif");
+    font-family: TW Cen MT;
+}
+
+/*MENÚ*/
+ul{
+    list-style: none;
+}
+.barras{
+    background-color: #520E0E;
+    height:10px;
+    margin-top: 5px;
+}
+.nav li a {
+    background-image: url("images/fondo.jfif");
+    color:#966464;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px 70px;
+    display: block;
+}
+
+.nav li a:hover{
+    background-color:rgb(189, 185, 179);
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    padding: 0px 0px;
+    list-style: none;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+/*LOGO*/
+img{
+    width: 70px;
+    margin-left: 20px;
+}
+
+/*img*/
+img.empresa{
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+img.icono{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+img.menu{
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+
+nav{
+    float: right;
+    margin-right: 20px;
+}
+
+/*FORM*/
+.contenedor {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.cake {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    width: 25%;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 15px;
+    text-align: center;
+    display: inline-block;
+}
+
+label {
+    font-family: Tw Cen MT;
+    font-size: 20px; 
+    color: #966464;
+    font-weight: bold;
+}
+
+p.categoria {
+    font-family: Tw Cen MT;
+    font-size: 30px; 
+    color: #D54B7A;
+    font-weight: bold;
+    text-align: center;
+}
+
+p{
+    font-family: Tw Cen MT;
+    font-size: 80px; 
+    color: #573B3B;
+    font-weight: bold; 
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30PX;
+    margin-bottom: 10px;
+}
+
+p.letrero{
+    font-family: Tw Cen MT;
+    font-size: 50px; 
+    color: #573B3B;
+    font-weight: bold; 
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30PX;
+    margin-bottom: 10px;
+}
+
+/*BOTON*/
+button {
+    width: 25%;
+    background-color: #5F2E3F;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    font-family: Tw Cen MT;
+    font-size: 20px;
+    margin-left: 36%;
+    margin-top:20px;
+}
+
+
+/*FOOTER*/
+footer{
+    background-color: #520E0E;
+    font-family: TW Cen MT;
+    display: flex;
+    height: 130px;
+    margin-top: 90px;
+}
+footer div{
+    margin-top: 0px;
+}
+.local{
+    width: 300px;
+    height: 30px;
+}
+footer p{
+    font-size: 20px;
+    color: #597E8D;
+    text-align: center;
+}
+.titulos{
+    color: #D54B7A;
+    font-size: 20px;
+    margin-top: 0px;
+}

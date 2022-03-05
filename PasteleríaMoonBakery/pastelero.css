@@ -1,0 +1,144 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    background-image: url("images/fondo.jfif");
+    opacity: 0.7;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url("images/fondo.jfif");
+    font-family: TW Cen MT;
+}
+
+/*MENÚ*/
+ul{
+    list-style: none;
+}
+.barra{
+    background-color: #520E0E;
+    font-family: TW Cen MT;
+    display: flex;
+    height: 10px;
+    margin-top: 5px;
+}
+.nav li a {
+    background-image: url("images/fondo.jfif");
+    color: #520E0E;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px 70px;
+    display: block;
+}
+
+.nav li a:hover{
+    background-color:rgb(189, 185, 179);
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    padding: 0px 0px;
+    list-style: none;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+/*LOGO*/
+img{
+    width: 70px;
+    margin-left: 20px;
+}
+
+img.cerebro{
+    width: 80%;
+}
+
+nav{
+    float: right;
+    margin-right: 20px;
+}
+
+/*FORM*/
+.contenedor{
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div.boton {
+    border-radius: 5px;
+    background-color: #f8f2f2;
+    padding: 20px;
+    width: 40%;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display:inline-block;
+}
+
+div.imagen {
+    border-radius: 5px;
+    padding: 20px;
+    width: 30%;
+    margin-left: 150px;
+    margin-top:50px;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+.letrero{
+    width: 100px;
+    margin-left: 40px;
+    list-style: none;
+}
+p{
+    font-size: 30px;
+    font-family: TW Cen MT;
+    color: #8D5F5F;
+    text-align: center;
+    margin-left: 10px;
+}
+p.titulo{
+    font-size: 40px;
+    font-family: TW Cen MT;
+    color: #8D5F5F;
+    text-align: center;
+}
+
+/*BOTON*/
+a.boton {
+    width: 50%;
+    background-color: #8D5F5F;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    font-family: Tw Cen MT;
+    font-size: 20px;
+    margin-left: 42%;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #520E0E;
+    font-family: TW Cen MT;
+    display: flex;
+    height: 30px;
+    margin-top: 40px;
+}
+footer div{
+    margin-top: 0px;
+}

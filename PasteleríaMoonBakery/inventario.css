@@ -1,0 +1,101 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    background-image: url("images/fondo.jfif");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url("images/fondo.jfif");
+    font-family: TW Cen MT;
+}
+
+nav{
+    float: right;
+    margin-right: 20px;
+}
+
+/*MENÚ*/
+ul{
+    list-style: none;
+}
+.barras{
+    background-color: #520E0E;
+    height:10px;
+    margin-top: 5px;
+}
+.nav li a {
+    background-image: url("images/fondo.jfif");
+    color:#966464;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px 70px;
+    display: block;
+}
+
+.nav li a:hover{
+    background-color:rgb(189, 185, 179);
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    padding: 0px 0px;
+    list-style: none;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+.titulo {
+    text-align: center;
+    font-size: 50px;
+    color: #520E0E;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    color: #520E0E;
+}
+/*LOGO*/
+img{
+    width: 70px;
+    margin-left: 20px;
+}
+
+/*img*/
+img.icono{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.contenedor {
+    border-radius: 5px;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.tablas {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    width: 25%;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+}
